@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>
+    CSS layput in grid 
+</title>
+<meta name ="viewport"  content="width=device-width   initial-scale=1">
+<meta charset="UTF-8">
+<style>
+
+*{
+    box-sizing:border-box
+}
+
+body{
+    font-family:arial,helvetica,sans-serif
+}
+header{
+    background-color:#ff54;
+    color:yellowgreen;
+    padding:15px;
+   /* width:100%;
+    height:100px;
+    font-size:medium;
+    */
+
+}
+nav{/*float:left;
+width:30%;
+height:300px;
+*/
+-webkit-flex:1;
+-ms-flex-:1;
+flex:1;
+    background-color:whitesmoke;
+    color:#5636ff;
+}
+nav ul{list-style-type:symbols("#");
+    font-size:medium;
+    font-style:oblique;
+}
+section{
+    display:flex;
+
+    display:-webkit-flex;
+}
+article{float:left;
+    background-color:steelblue;
+    color:#ff8652;
+    width:70%;
+    height:300px;
+}
+footer{
+    background-color:#52ff87;
+    color:lightseagreen;
+padding:10px;
+width:100%;
+height:100px;
+}
+
+/* resposive  identity for size*/
+@media (max-width:600px){
+    nav,article{
+        
+     /*   width:100%;
+        height:auto;  */
+        -webkit-flex-direction: column;
+    flex-direction: column;
+  
+    }
+}
+
+
+</style>
+
+<body>
+
+<header>
+    Kaka
+</header>
+
+<section>
+    <nav>
+        <ul>
+            <li><a href="#">Libas</a></li>
+            <li><a href="#">Tije Seat</a></li>
+            <li><a href="#">Khen Len De</a></li>
+        </ul>
+    </nav>
+
+
+<article>
+    <h2>
+        Punjabi Songs
+    </h2>
+
+    <p> Kale j libas di shaukan kudi</p>
+    <p> dur dur jay mre kale rang to </p>
+    <p> kala sut jav pave lgda jeher sade dil nu cdayegi</p>
+    <p>lgda sde dil haske hi kd lejayegi</p>
+<p>Nal sare dekh jaye ni matha tek jaye  </p>
+</article>
+</section>
+
+<footer>
+    <h2> chakle pakode bne dngto</h2>
+</footer>
+</body>
+
+
+</html>
