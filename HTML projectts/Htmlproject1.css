@@ -1,0 +1,52 @@
+address{opacity:0.5;
+    margin-bottom: 35px;
+}
+h2{margin-bottom:5px;
+margin-top:5px;
+}
+
+body{
+background-color: blanchedalmond;
+    margin-top:50px;
+    margin-left: 220px;
+    
+    background-repeat: no-repeat;
+}
+
+input{font-size:2vw;
+    border-radius: 5px;
+}
+form{align-self: center;
+margin: 50px;
+padding: 40px;
+    background-color: aliceblue;
+    height:auto;
+    border-radius: 15px;
+    font-size:3vw;
+width:60%;
+opacity:0.6
+}
+.add{border-radius:25px;
+    background-color: turquoise;
+    font-size:2vw;
+    width:70px;
+}
+.button{color:white;
+    font-size:2vw;
+    border-radius:10px;
+    background-color:rgb(149, 24, 82);
+}
+.butt{color:white;
+    background-color:rgb(228, 39, 212);
+    border-radius:10px;
+    font-size:2vw;
+    
+}
+.but{background-color:rgb(142, 63, 222);
+    border-radius:10px;
+    font-size:2vw;
+    color:white;
+}
+.pad{
+    margin:10px;
+}

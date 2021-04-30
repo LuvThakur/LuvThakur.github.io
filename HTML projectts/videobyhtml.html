@@ -4,23 +4,53 @@
 <body>
 
 
+ <div >
+
+    <button onclick="playPause()">Play/Pause</button> 
+    <button onclick="makeBig()">Big</button>
+    <button onclick="makeSmall()">Small</button>
+    <button onclick="makeNormal()">Normal</button>
+    <br><br
 
     <h2 style="color:aqua;"> A video made by # Luv Laijyour </h2>
-    <video width="400" height="350" controls>
-        <source src="movies/movie.mp4" type="video/mp4">
-        <source src="movies/movie.ogg" type="video/ogg">
+    <video  controls>
+        <source src="movies/lav.mp4" type="video/mp4">
+        <source src="movies/lav.ogg" type="video/ogg">
 
     </video>
 
     <audio controls>
-        <source src="audio/diljale.wav" type="audio/wav">
+        <source src="E:/github/audio/Glacier.wav" type="audio/wav">
     </audio>
 
     <audio controls>
 
         <source src="audio/horse.ogv" type="audio/mp3">
     </audio>
-<object data="images/queen.jpg"></object>
+<script>
+    function playPause() { 
+        if (myVideo.paused) 
+          myVideo.play(); 
+        else 
+          myVideo.pause(); 
+      } 
+      
+      function makeBig() { 
+          myVideo.width = 560; 
+      } 
+      
+      function makeSmall() { 
+          myVideo.width = 320; 
+      } 
+      
+      function makeNormal() { 
+          myVideo.width = 420; 
+      } 
+      </script> 
+      
+
+    <!-- <object data="images/queen.jpg"></object> -->
+    </div>
 </body>
 
 

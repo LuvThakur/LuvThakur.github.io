@@ -23,9 +23,9 @@ scanf("%d", &rows);
 {
     for(j=0; j<rows-i; j++)
     {
-        printf(" ");
+        printf("* ");
     }
-printf("\n");
+printf("*\n");
 }
 
 

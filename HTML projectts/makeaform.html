@@ -4,9 +4,36 @@
 <head>
     <title> Html Table</title>
 </head>
+<style>
+
+    
+.ab { max-width:90px;
+    border:2px solid aqua;
+  border-radius:10px;
+  text-align: center;
+  /* background-color:whitesmoke; */
+  text-transform:capitalize;
+  float:inline-end;
+
+}
+
+
+a:link,a:visited,a:hover{
+    color:goldenrod;
+    background-color:transparent;
+
+}
+
+
+
+
+
+
+</style>
 
 <body>
-    <h2> this is form</h2>
+    <div>
+    <h2 > Basic Form  </h2>
 
     <form action="becks.php"  autocomplete="on" method="POST">
 <!-- in POST method value of form notthe form values is not visible 
@@ -225,19 +252,22 @@ but in get method value visible of  form-->
             </div>
             <br>
             <div>
+                
                 <label for="Gendr">Gender:</label>
                 <label for="gender">Male</label>
-                <input type="checkbox" id="gender" name="Gender" checked>
+                <input type="checkbox" id="gender" name="Gender" >
                 <label for="gende">female</label>
-                <input type="radio" id="gende" name="Gender">
+                <input type="radio" id="gender" name="Gender">
                 <label for="gend">other</label>
-                <input type="radio" id="gend" name="Gender">
-
+                <input type="radio" id="gender" name="Gender">
+                
             </div>
             <br>
             <div>
                 <label for="email">enter email</label>
                 <input type="email" id="email" name="email"  autocomplete="off">
+              <p class="ab"> <b> <a href="mailto:laijyour26@gmail.com"> send email</a> <b> 
+              </p>
             </div>
             <br>
             <div>
@@ -294,7 +324,7 @@ but in get method value visible of  form-->
 
             </div>
     </form>
-
+        </div>
 </body>
 
 
